@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+
+    <p id="parrafo1">Este es un parrafo de HTML</p>
+
+    <script src="./libs/jquery-3.6.0.min.js"></script>
+
+    <script>
+        $(() => {
+            alert($('#parrafo1')[0].tagName);
+        })
+    </script>
+</body>
+</html>

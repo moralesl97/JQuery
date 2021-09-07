@@ -1,0 +1,10 @@
+.complete {
+    font-weight: bold;
+    font-style: italic;
+    background-color: greenyellow;
+  }
+
+.incomplete {
+    font-style: italic;
+    background-color: yellow;
+  }

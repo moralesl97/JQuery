@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes JQuery</title>
+    <link rel="stylesheet" href="./notes-jquery.css">
+</head>
+<body>
+    <div style="margin-bottom: 1em;">
+        Title:<input type="text" id="newNoteTitle" style="width: 10%;"/>
+        Content:<input type="text" id="newNoteContent"  style="width: 70%;"/>
+        <input type="button" value="Guardar Nota" id="saveNoteBtn" />
+    </div>
+
+    <table id="notesTable">
+        <tr>
+            <th>Title</th>
+            <th>Content</th>
+            <th>Options</th>
+        </tr>
+    </table>
+
+    <script src="./libs/jquery-3.6.0.min.js"></script>
+    <script src="./notes-jquery.js"></script>
+</body>
+</html>
